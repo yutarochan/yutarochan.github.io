@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuya Jeremy Ong</title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,300,200,100' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+    	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <canvas id="particle"></canvas>
+
+	<!-- Header -->
+	<div class="jumbotron top-header fill">
+		<div class="container text-center top-header-content absolute-center">
+        	<h1>Yuya Jeremy Ong</h1>
+            <h3 id="header_subtext_tags">&lt;/ <span id="header_subtext"></span> &gt;</h3>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h2><b>"Design by Innovation"</b></h2>
+            <br>
+            <p>I am currently a Senior at Tenafly High School with an interest in Computer Science and Artificial Intelligence Systems. <br>I leverage the cutting-edge techonologies and skills to develop and design innovative solutions to solve real-world problems.</p>
+
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.airport.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script>
+        // Header Text Script
+        $( document ).ready(function() {
+            $("#header_subtext").airport([ "Developer", "Innovator", "Designer", "Algorithmist" ]);
+        });
+    </script>
+</body>
+
+</html>
