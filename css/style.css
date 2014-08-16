@@ -14,6 +14,10 @@ html, body {
   top: 0; left: 0; bottom: 0; right: 0;
 }
 
+.jumbotron {
+	margin-bottom: 0px !important;
+}
+
 /* Canvas Background */
 #particle {
 	position: fixed;
@@ -35,7 +39,8 @@ html, body {
 	color: #53ccd9;
 }
 
-/* Opaque Filler Color */
-.filler {
-	background: white;
+/* About Me */
+.aboutme {
+	background: #1B4A67;
+	color: white;
 }
