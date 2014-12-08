@@ -74,3 +74,12 @@ html, body {
 	background: linear-gradient(to right,  #01346d 0%,#057cbf 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01346d', endColorstr='#057cbf',GradientType=1 ); /* IE6-9 */
 }
+
+.blog_header {
+	padding-top: 2%;
+}
+.blog_header .title {
+	font-weight: bold;
+	font-size: 24px;
+}
+

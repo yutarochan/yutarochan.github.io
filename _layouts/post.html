@@ -3,8 +3,10 @@ layout: default
 ---
 
 <div class="container-fluid micro_banner">
-    <div class="container">{{ page.title }}</div>
-    <br>
+    <div class="container blog_header">
+    	<a class="back" href="{{site.url}}/blog">Back to Archives</a>
+    	<div class="title">{{ page.title }}</div>
+	</div>
                 <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
             <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
             <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
