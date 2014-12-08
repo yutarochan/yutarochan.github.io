@@ -89,10 +89,6 @@ html, body {
 	background: linear-gradient(to right,  #01346d 0%,#057cbf 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01346d', endColorstr='#057cbf',GradientType=1 ); /* IE6-9 */
 }
-.blog_header a {
-	font-size: 15px;
-	font-weight: light;
-}
 .blog_header .title {
 	font-size: 33px;
 	padding-top: 3%;

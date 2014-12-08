@@ -4,9 +4,10 @@ layout: default
 
 <div class="container-fluid blog_header">
     <div class="container">
-    	<a class="back" href="{{site.url}}/blog">Back to Archives</a>
     	<div class="title">{{ page.title }}</div>
-    	<div class="meta">{{page.date|date:"%b %d, %Y"}} | {{ page.categories | category_links }}</div>
+    	<div class="meta">
+    		<span class="glyphicon glyphicon-calendar" /> {{page.date|date:"%b %d, %Y"}} <br /> 
+    		<span class="glyphicon glyphicon-tag" /> {{ page.categories | category_links }}</div>
 	</div>
 </div>
 <div class="container">{{ content }}</div>
