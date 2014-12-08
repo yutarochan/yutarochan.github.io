@@ -6,8 +6,7 @@ layout: default
     <div class="container">
     	<div class="title">{{ page.title }}</div>
     	<div class="meta">
-    		<span class="glyphicon glyphicon-calendar" /> {{page.date|date:"%b %d, %Y"}} <br /> 
-    		<span class="glyphicon glyphicon-tag" /> {{ page.categories | category_links }}</div>
+    		<span class="glyphicon glyphicon-calendar" /> {{page.date|date:"%b %d, %Y"}} | <span class="glyphicon glyphicon-tag" /> {{ page.categories | category_links }}</div>
 	</div>
 </div>
 <div class="container">{{ content }}</div>
