@@ -94,6 +94,7 @@ html, body {
 	padding-top: 3%;
 }
 .blog_header .meta {
-	font-size: 17px;
-	font-weight: light;
+	font-size: 15px;
+	font-weight: lighter;
+	text-align: left;
 }
