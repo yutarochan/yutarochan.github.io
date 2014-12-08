@@ -60,9 +60,9 @@ html, body {
 	z-index: 1
 }
 .micro_banner {
-	font-size: 28px;
-	padding-top: 2%;
-	padding-bottom: 1%;
+	font-size: 32px;
+	padding-top: 4%;
+	padding-bottom: 1.5%;
 	color: white;
 	margin-bottom: 1%;
 	background: #01346d; /* Old browsers */
