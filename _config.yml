@@ -1,5 +1,5 @@
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: Yuya Jeremy Ong
+name: YUYA ONG
 
 # Short description (goes below the title; it will also be used in the RSS feed)
 description: Yuya Ong's Personal Profile Website.
@@ -21,7 +21,7 @@ category_dir: /
 baseurl: /
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://yourdomain.com/
+url: http://yuyajeremyong.com/
 
 #### Under the Hood Stuff #####
 
