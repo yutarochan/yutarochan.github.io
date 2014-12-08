@@ -60,6 +60,10 @@ html, body {
 	z-index: 1
 }
 .micro_banner {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	color: white;
+	margin-bottom: 1%;
 	background: #01346d; /* Old browsers */
 	background: -moz-linear-gradient(left,  #01346d 0%, #057cbf 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#01346d), color-stop(100%,#057cbf)); /* Chrome,Safari4+ */
