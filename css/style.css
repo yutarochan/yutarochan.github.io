@@ -77,7 +77,6 @@ html, body {
 
 .blog_header {
 	font-size: 32px;
-	padding-top: 2%;
 	padding-bottom: 1.5%;
 	color: white;
 	margin-bottom: 1%;
@@ -100,5 +99,5 @@ html, body {
 }
 .blog_header .meta {
 	font-size: 17px;
-	font-weight: lighter;
+	font-weight: light;
 }
