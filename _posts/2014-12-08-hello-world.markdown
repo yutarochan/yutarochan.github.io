@@ -9,8 +9,6 @@ excerpt: Hello World! Vestibulum imperdiet adipiscing arcu, quis aliquam dolor c
 
 Hello World!
 
-This is just a sample post. Finally, got around working on implementing my own blog in Jekyll.
+This is just a sample post. Finally, got around working on implementing my own blog in Jekyll, which I had some issues with due to an error with an installation with the Jekyll platform on the terminal. So instead, I forked off a template site from <a href="https://github.com/maciakl/Sample-Jekyll-Site">here</a> and played around with the template until I managed to get my template to work in harmony.
 
-Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.
-
-Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo. 
+Currently many parts of this site needs a lot more work, so if you do see any problems with the site please wait for about another week or two. I promise the site will get better in time.
