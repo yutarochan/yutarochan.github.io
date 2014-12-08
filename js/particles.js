@@ -19,24 +19,31 @@ var canvas = document.getElementById("particle");
 var ctx = canvas.getContext("2d");
 
 // Set the canvas width and height to occupy full window
-var W = window.innerWidth, H = window.innerHeight;
+var W = window.innerWidth, H = window.innerHeight*0.5;
 canvas.width = W;
 canvas.height = H;
 
 // Some variables for later use
-var particleCount = 80,
+var particleCount = window.innerWidth*0.05,
 	particles = [],
 	minDist = 180,
 	dist;
 
 // Function to paint the canvas black
 function paintCanvas() {
+	var grd=ctx.createLinearGradient(0,0,W,W);
+	grd.addColorStop(0,"#01346D");
+	grd.addColorStop(1,"#057CBF");
 	// Set the fill color to black
-	ctx.fillStyle = "#1E2732";
+	//ctx.fillStyle = "#1E2732";
+	ctx.fillStyle = grd;
 	
 	// This will create a rectangle of white color from the 
 	// top left (0,0) to the bottom right corner (W,H)
 	ctx.fillRect(0,0,W,H);
+
+	ctx.font = "bold 16px Arial";
+	ctx.fillText("Hello World!", 100, 100);
 }
 
 // Now the idea is to create some particles that will attract
@@ -79,7 +86,7 @@ function Particle() {
 	// whether the arc is to be drawn in counter clockwise or 
 	// in a clockwise direction. False for clockwise.
 	this.draw = function() {
-		ctx.fillStyle = "#56BECC";
+		ctx.fillStyle = "white";
 		ctx.beginPath();
 		ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
 		
@@ -113,7 +120,6 @@ function draw() {
 
 // Give every particle some life
 function update() {
-	
 	// In this function, we are first going to update every
 	// particle's position according to their velocities
 	for (var i = 0; i < particles.length; i++) {
@@ -170,7 +176,7 @@ function distance(p1, p2) {
 		
 		// Draw the line
 		ctx.beginPath();
-		ctx.strokeStyle = "rgba(44,79,84,"+ (1.2-dist/minDist) +")";
+		ctx.strokeStyle = "rgba(225,225,225,"+ (0.85-dist/minDist) +")";
 		ctx.moveTo(p1.x, p1.y);
 		ctx.lineTo(p2.x, p2.y);
 		ctx.stroke();

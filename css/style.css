@@ -3,44 +3,59 @@ html, body {
     height: 100%;
 }
 
-/* Bootstrap Adjust */
-.fill {
-	min-height: 100%;
-    height: 100%;
+/* Header */
+.header {
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.logo-text {
+	font-weight: bold;
+	font-size: 2.4em;
+	color: #54585E;
+
+	font-family: 'Quicksand', sans-serif;
+}
+.logo-text:hover {
+	color: #3A98D8;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-toggle {
+	border: 1px solid #3A98D8;
+}
+.navbar-toggle .icon-bar {
+	background-color: #3A98D8;
+}
+.navbar-custom {
+	border-radius: none;
+}
+.navbar-custom li a {
+	color: #54585E;
+	font-size: 1.2em;
+	border: 1px solid transparent; 
+}
+.navbar-custom li a:hover{ 
+	color: #3A98D8;
+	background: none;
 }
 
-.absolute-center {
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
-
-.jumbotron {
-	margin-bottom: 0px !important;
-}
-
-/* Canvas Background */
 #particle {
+	display: block;
 	position: fixed;
 	z-index: -1;
+	height: 50;
 }
 
-/* Top Header */
-.top-header {
+.banner {
 	background: none;
-	padding-top: 20%;
-	min-height: 100%;
-    height: 100%;
-
+	padding-top: 10%;;
+	display: block;
 	color: white;
+	height: 50%
 }
+.banner .main_text { font-size: 3em; }
 
-#header_subtext {
-	padding-top: 6%;
-	color: #53ccd9;
-}
-
-/* About Me */
-.aboutme {
-	background: #1B4A67;
-	color: white;
+.banner2 {
+	z-index: 1
 }
