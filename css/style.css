@@ -60,6 +60,7 @@ html, body {
 	z-index: 1
 }
 .micro_banner {
+	font-size: 28px
 	padding-top: 2%;
 	padding-bottom: 1%;
 	color: white;
