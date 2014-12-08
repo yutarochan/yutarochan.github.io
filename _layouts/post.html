@@ -6,10 +6,8 @@ layout: default
     <div class="container">
     	<a class="back" href="{{site.url}}/blog">Back to Archives</a>
     	<div class="title">{{ page.title }}</div>
+    	<div class="meta">{{page.date|date:"%b %d, %Y"}} | {{ page.categories | category_links }}</div>
 	</div>
-                <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-            <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
-            <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
 </div>
 <div class="container">{{ content }}</div>
 

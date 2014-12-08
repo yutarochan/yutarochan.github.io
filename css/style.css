@@ -98,3 +98,7 @@ html, body {
 	font-size: 33px;
 	padding-top: 3%;
 }
+.blog_header .meta {
+	font-size: 17px;
+	font-weight: lighter;
+}
