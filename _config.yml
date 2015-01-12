@@ -6,9 +6,9 @@ pygments:	true
 permalink:	/blog/:title
 
 # Setup
-title:		Yutarochan's Blog
+title:		Yuya's Blog
 tagline:	'blog'
-description:	'The blog, notes and thoughts of Yuya Jeremy Ong.'
+description:	'The blog, notes and some thoughts going on in the mind of Yuya Jeremy Ong.'
 url:		http://yuyajeremyong.com
 
 author:
@@ -46,7 +46,7 @@ menu:
     url:	/about
     
 copyright:
-  author:	yutarochn
+  author:	Yuya Jeremy Ong
   url:		http://yuyajeremyong.com
   type_title:	Some rights reserved
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
