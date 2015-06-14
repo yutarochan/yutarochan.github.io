@@ -18,7 +18,7 @@ author:
 paginate:	5
 
 # Custom vars
-icon:		/assets/images/icon.png
+icon:		/assets/images/profile.jpg
 cover:		/assets/images/cover.jpg
 
 social:
@@ -37,14 +37,14 @@ social:
   - icon:	feed
     url:	http://camporez.com/atom.xml
     desc:	Subscribe to my feed
-    
+
 menu:
   - title:	Home
     url:	/
-    
+
   - title:	About
     url:	/about
-    
+
 copyright:
   author:	Camporez
   url:		http://camporez.com
