@@ -5,6 +5,15 @@ quote: "Welcome to a series of blog post reflecting new knowledge, insight and t
 video: false
 ---
 
-Error: Command failed: /bin/sh -c [ -f ~/.bash_profile ] && source ~/.bash_profile;[ -f ~/.bashrc ] && source ~/.bashrc;pandoc --read markdown --write markdown --output "/tmp/115514-7951-1t5x7os" "/tmp/input115514-7951-1fcdwjh"
-/bin/sh: 1: source: not found
-/bin/sh: 1: pandoc: not found
+Welcome to my first blog post where I hope to keep this as a personal corner of the web to write out my thoughts, ideas, tutorials and latest developments. Although this is my first time getting to understand how Jekyll works, I hope to post on topics such as:
+
+    * Computer Science
+    * Programming
+    * AI, Machine Learning, Neural Networks and Deep Learning
+    * Vocaloid and Music Production
+    * Startup Experiences
+    * etc...
+
+If you would like to keep in touch with me, you can do so through my email: yuyajeremyong [at] gmail [dot] com
+
+Also, you can subscribe to my atom feel through [here](http://yutarochan.github.io/atom.xml) to get the latest feed in your RSS reader.
