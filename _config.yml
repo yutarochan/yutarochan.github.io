@@ -8,7 +8,7 @@ permalink:	/blog/:title
 # Setup
 title:		Yuya Jeremy Ong
 tagline:	'Blog'
-description:'Personal blog and profile site of Yuya Jeremy Ong.'
+description: 'Personal blog and profile site of Yuya Jeremy Ong.'
 url:		http://yutarochan.github.io
 
 author:
