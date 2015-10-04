@@ -3,10 +3,8 @@ layout: post
 title: Blog
 ---
 
-<ul>
-{% for post in site.posts %}
-<li>
-    <a href="{{ post.url }}">{{ post.title | markdownify }}</a>
-</li>
+{% for post in paginator.posts %}
+    <span class="post-date">{{ post.date | date_to_long_string }}</span>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="post-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
 {% endfor %}
-</ul>
