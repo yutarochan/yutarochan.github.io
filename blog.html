@@ -12,8 +12,8 @@ title: Blog
 			{% for post in site.posts %}
 				<div class="blogPost">
 					<div class="title">{{ post.title }}</div>
-					<p>{{ post.date | date_to_long_string }}</p>
-					<h2>{{ post.content | strip_html | truncatewords: 50 }}</h2>
+					<div class="date">{{ post.date | date_to_long_string }}</div>
+					<h2>{{ post.content | strip_html | truncatewords: 25 }}</h2>
 				</div>
 			{% endfor %}
 		</div>
