@@ -14,6 +14,18 @@ title: Blog
 					<div class="title">{{ post.title }}</div>
 				</div>
 			{% endfor %}
+			<!--
+			<h3>{{ post.title }}<h3>
+			<p>{{ post.date | date_to_long_string }}</p>
+			<h2>{{ post.content | strip_html | truncatewords: 50 }}</h2>
+			<br> -->
 		</div>
 	</div>
 </div>
+<style>
+.blogPost {}
+.blogPost .title {
+	font-size: 25px;
+	font-weight: bold;
+}
+</style>
