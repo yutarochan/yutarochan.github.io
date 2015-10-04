@@ -6,14 +6,14 @@ title: Blog
     <div class="row">
 		<div class="col-md-12">
 			<h1>Blog</h1>
-			<p>From tutorials, paper reviews to random thoughts, everything is here...</p>
+			<p>From tutorials, paper reviews, life updates to random thoughts, everything is here...</p>
 			<br>
 
 			{% for post in site.posts %}
 				<div class="blogPost">
 					<div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
 					<div class="date">{{ post.date | date_to_long_string }}</div>
-					<p>{{ post.content | strip_html | truncatewords: 50 }}</hp>
+					<p>{{ post.quote | strip_html | truncatewords: 50 }}</hp>
 				</div>
 			{% endfor %}
 		</div>

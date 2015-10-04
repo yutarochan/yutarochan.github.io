@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to "
+title: "Getting Settled"
 quote: "Finally got my website up and running after fumbling around with Jekyll for some time... Well, welcome!"
 video: false
 ---
