@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Science Behind Vocaloid"
-quote: "Welcome to a series of blog post reflecting new knowledge, insight and thoughts on various topics."
+title: "Welcome to "
+quote: "Finally got my website up and running after fumbling around with Jekyll for some time... Well, welcome!"
 video: false
 ---
 
