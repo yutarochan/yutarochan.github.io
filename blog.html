@@ -10,11 +10,24 @@ title: Blog
 			<br>
 
 			{% for post in site.posts %}
-				<h3>{{ post.title }}<h3>
-				<p>{{ post.date | date_to_long_string }}</p>
-				<h2>{{ post.content | strip_html | truncatewords: 50 }}</h2>
-				<br>
+				<div class="blogPost">
+					<div class="title">{{ post.title }}</div>
+				</div>
 			{% endfor %}
 		</div>
 	</div>
 </div>
+<!--
+<h3>{{ post.title }}<h3>
+<p>{{ post.date | date_to_long_string }}</p>
+<h2>{{ post.content | strip_html | truncatewords: 50 }}</h2>
+<br> -->
+
+<style>
+.blogPost {}
+.blogPost .title {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+</style>
