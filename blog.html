@@ -2,7 +2,12 @@
 layout: default
 title: Blog
 ---
-
-{% for post in site.posts %}
-	{{ post.title }} <br>
-{% endfor %}
+<div class="container">
+    <div class="row">
+		<div class="col-md-9">
+			{% for post in site.posts %}
+				{{ post.title }} <br>
+			{% endfor %}
+		</div>
+	</div>
+</div>
