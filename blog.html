@@ -13,7 +13,7 @@ title: Blog
 				<div class="blogPost">
 					<div class="title">{{ post.title }}</div>
 					<div class="date">{{ post.date | date_to_long_string }}</div>
-					<p>{{ post.content | strip_html | truncatewords: 25 }}</hp>
+					<p>{{ post.content | strip_html | truncatewords: 50 }}</hp>
 				</div>
 			{% endfor %}
 		</div>
