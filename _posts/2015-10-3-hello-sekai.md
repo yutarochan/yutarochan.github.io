@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello, 世界!"
+title: "The Science Behind Vocaloid"
 quote: "Welcome to a series of blog post reflecting new knowledge, insight and thoughts on various topics."
 video: false
 ---
