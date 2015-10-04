@@ -8,9 +8,9 @@ title: Blog
 			<h1>Blog</h1>
 			<p>From tutorials, paper reviews to random thoughts, everything is here...</p>
 			<br>
-			
+
 			{% for post in site.posts %}
-				{{ post.title }} <br>
+				<h2>{{ post.title }}<h2> <br>
 			{% endfor %}
 		</div>
 	</div>
