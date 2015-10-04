@@ -17,6 +17,13 @@ author:
 
 paginate:	5
 
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	Blog
+    url:	/blog
+
 # Custom vars
 copyright:
   author:	Yuya Jeremy oNg
