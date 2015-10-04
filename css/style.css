@@ -1,0 +1,11 @@
+body { background-color: #F4F4F4; color: #616161; }
+h1 { color: black; font-size: 25px; padding-bottom: 5px; font-weight: bolder; font-family: "Duru Sans"; }
+h2 { color: black; font-size: 18px; color: #87878A; padding-bottom: 25px; font-family: "Duru Sans"; }
+h3 { color: black; font-size: 18px; font-weight: bold; font-family: "Merriweather"; padding-bottom: 10px;}
+h4 { color: black; font-size: 13px; font-family: "Duru Sans"; }
+p { font-size: 14px; font-family: "Merriweather" }
+
+/* Navbar */
+.navbar { padding-top: 30px; padding-bottom: 40px; font-family: "Duru Sans"; }
+.navbar a { color: black !important; }
+.navbar a:hover { color: #20BFF0 !important; }
