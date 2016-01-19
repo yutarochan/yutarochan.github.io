@@ -9,6 +9,7 @@ p { font-size: 14px; font-family: "Merriweather" }
 .navbar { padding-top: 30px; padding-bottom: 40px; font-family: "Duru Sans"; }
 .navbar a { color: black !important; }
 .navbar a:hover { color: #20BFF0 !important; }
+.navbar-nav { float:right !important; }
 
 /* Blog */
 .blogPost {}
