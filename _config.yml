@@ -30,3 +30,5 @@ defaults:
             type: posts
         values:
             layout: post
+
+gems: [jekyll-paginate]
