@@ -5,7 +5,7 @@ meta_description: "Yuya Jeremy Ong"
 markdown: kramdown
 highlighter: rouge
 
-# paginate: 50
+paginate: 20
 baseurl: /
 domain_name: 'http://yutarochan.github.io'
 google_analytics: 'UA-74785105-1'
