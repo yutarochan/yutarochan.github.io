@@ -1,0 +1,32 @@
+name: Yuya Jeremy Ong
+description: AI & Machine Learning Argonaut
+meta_description: "Yuya Jeremy Ong"
+
+markdown: kramdown
+highlighter: rouge
+
+# paginate: 50
+baseurl: /
+domain_name: 'http://yutarochan.github.io'
+google_analytics: 'UA-74785105-1'
+disqus_shortname: 'yutarochan'
+
+# Details for the RSS feed generator
+url:            'http://yutarochan.github.io'
+author:         'Yuya Ong'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
