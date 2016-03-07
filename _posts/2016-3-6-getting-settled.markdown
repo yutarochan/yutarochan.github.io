@@ -1,7 +1,7 @@
 ---
 title:  "Getting Settled"
 date:   2016-3-6 21:44:00
-description: Finished fumbling with Jekyll...
+description: First post and general introduction
 ---
 
 Welcome to my first post where I hope to keep this as a personal corner of the web to write out my thoughts, ideas, tutorials and latest developments. I hope to post on topics such as:
