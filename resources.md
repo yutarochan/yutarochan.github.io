@@ -36,6 +36,7 @@ Coming soon...
 * [Underflow](http://underflow.fr/)
 * [The Spectator](http://blog.shakirm.com/)
 * [Christopher Olah](http://colah.github.io/)
+* [A Year of Artificial Intelligence](https://medium.com/a-year-of-artificial-intelligence)
 
 ***
 
