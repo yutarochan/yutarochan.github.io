@@ -35,6 +35,7 @@ Coming soon...
 * [Hiroshi Yuki](http://www.hyuki.com/)
 * [Underflow](http://underflow.fr/)
 * [The Spectator](http://blog.shakirm.com/)
+* [Christopher Olah](http://colah.github.io/)
 
 ***
 
