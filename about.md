@@ -4,7 +4,7 @@ permalink: about/
 profile: true
 ---
 
-I'm Yuya, a current undergraduate student in the [Department of Computer Science](http://www.cse.psu.edu/) at the <a href="http://www.psu.edu/">Pennsylvania State University. Currently transitioning my major to Data Sciences.
+I'm Yuya, a current undergraduate student in the [Department of Computer Science](http://www.cse.psu.edu/) at the <a href="http://www.psu.edu/">Pennsylvania State University</a>. Currently transitioning my major to Data Sciences.
 
 My interests lie in working with Software Development, Artificial Intelligence, Machine Learning, Big Data, Data Science, Human Computer Interaction Systems, Affective Computing and more recently Virtual Reality and Augmented Reality. When I'm not programming, typically a Vocaloid producer composing songs.
 
