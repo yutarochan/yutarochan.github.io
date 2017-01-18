@@ -37,6 +37,7 @@ Coming soon...
 * [The Spectator](http://blog.shakirm.com/)
 * [Christopher Olah](http://colah.github.io/)
 * [A Year of Artificial Intelligence](https://medium.com/a-year-of-artificial-intelligence)
+* [Unofficial Google Data Science Blog](http://www.unofficialgoogledatascience.com/)
 
 ***
 
