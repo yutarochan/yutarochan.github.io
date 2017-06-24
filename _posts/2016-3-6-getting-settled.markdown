@@ -10,7 +10,7 @@ Welcome to my first post where I hope to keep this as a personal corner of the w
 * Programming and Programming Languages
 * AI, Machine Learning, Neural Networks and Deep Learning
 * Life Updates, Accomplishments, Retrospective Posts and Experiences
-* Vocaloid and Related Topics on Automated Compositions
+* Research and other Professional Developments
 
 <br/>
 

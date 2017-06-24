@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Yuya Jeremy Ong</title>
+    <description>AI &amp; Machine Learning Argonaut</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>How Computers Can Recognize Objects in Images</title>
+        
+        <description>&lt;p&gt;Recent advancements in computer vision technology has improved over the past few years, which allows computers to recognize objects within a given photograph for a stream of image data. The process of identifying objects or entities from an image is known as image recognition. These systems are widely used in today’s industries such as facial detection for your Snapchat’s filters to self-driving cars which identifies pedestrians and other vehicles on the road. To have computers be able to recognize and distinguish entities within an image, computers use machine learning, specifically a process called Deep Learning. Machine learning allows for the system to recognize these entities by explicitly having computers “learn” specific features of the object we want them to identify. We do this by providing many examples of images and training them through an iterative process to improve their ability to recognize these objects.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-machine-learning&quot;&gt;What is Machine Learning?&lt;/h2&gt;
+&lt;p&gt;Machine Learning is a process which makes use of data, rather than pre-defined or hard-coded rules to define and govern the behavior of a computer. This process would be especially useful if the desired action, in this case image recognition, needs to deal with data with a huge amount of variability with the incoming data. In machine learning, we essentially have two different processes which we will be using in order for us to build systems which are capable of recognizing objects from an image, notably the training and prediction [2]. Figure 1, outlines the general process of training and prediction of the data.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-deep-learning&quot;&gt;What is Deep Learning?&lt;/h2&gt;
+&lt;p&gt;Over the past few years, there have been significant advancements in modeling techniques - most notably due to the abundance in computing power and data resources available. This has given rise to a new class of modeling architectures, known as Neural Networks, which attempts to emulate the process of the human neural cortex in building intelligent systems. Neural Networks mimic the human brain through the idea of using an activation function when provided with some input data to provide some output response, depending on the type of input data [3]. The perceptron, as shown in Figure 2, is the most atomic component of a neural network.&lt;/p&gt;
+
+&lt;p&gt;The perceptron works by taking each of the various input values, denoted as xi, and multiplies it by the learned weights, denoted by w. The products of the inputs and weights are then summed together and then fed into an activation function, denoted by φ. The activation function here plays a critical role very similar to the firing of a neuron in the brain and propagates the given input as output to the next neuron or the output result of a model. Often times, the activation function can be usually defined by a sigmoid function, which is denoted as follows:&lt;/p&gt;
+
+&lt;p&gt;However, other activation functions can be utilized as well, which can often times augment the behavior of the neural network - and can sometime lead to better performance results or efficiency gains in the inference process.&lt;/p&gt;
+
+&lt;p&gt;By building these individual neural connections in a layer, as shown in Figure 3, we form the neural network [4]. In a neural network, the data goes through an input layer, then gets passed through hidden layer and finally the result of the model gets sent to the output layer. By adding more layers to the model, we can devise much more interesting topologies and data flow patterns which can account for even more complex operations and models. These types of models are often known as Deep Neural Networks, as some models may have a dozen or more of these intermediate hidden layers&lt;/p&gt;
+
+&lt;h2 id=&quot;training-the-model&quot;&gt;Training the Model&lt;/h2&gt;
+&lt;p&gt;To build a model which can be used to perform the task of image recognition, we will first need to collect as much sample data as possible to provide sufficient examples for the computer to be able to “learn” from [2]. In this case, our dataset will comprise of sample images of the objects of interest that we would want our computer to learn about along with the given label which we will want the computer to associate the sample images with. The complete collection of these pairs of images and labels, are known as a dataset. After getting our dataset together, we will typically split the dataset into two different piles - one for training and another for validation, usually allocating between 60 to 80 percent of the dataset for training while the rest is used to validate our model. The purpose of splitting our dataset allows us to check whether our model can generalize across data it has never seen before and evaluate the overall performance of how well it can detect objects in a the new image.&lt;/p&gt;
+
+&lt;h3 id=&quot;convolutional-neural-networks&quot;&gt;Convolutional Neural Networks&lt;/h3&gt;
+&lt;p&gt;When computers try to identify objects in an image, one of the critical steps in machine learning is extraction of features. Features in machine learning are mostly salient properties of the data which help you to distinguish between a cat, dog and person. In image processing, this would be looking at the contours, edges and patterns of an image which constitute the overall figure of the object. The key in machine learning is to have systems learn these image features through the sample data you provide it and build a hierarchy of these visual features it can look for. Figure 4 shows the result of the features a system learned after viewing examples of various facial images [5].&lt;/p&gt;
+
+&lt;p&gt;For systems to be able to learn and extract critical features from the image, we utilize a special type of neural architecture layer known as the convolutional neural network - inspired by the convolution operation often utilized in digital signal processing. Similar to the neural network, the convolution operation allows us to learn these features. The operations of feature learning is comprised of two different layer phases which are repeated in succession several times - convolution and pooling [4].&lt;/p&gt;
+
+&lt;p&gt;During the convolution operation, the model will attempt to extract useful features through analyzing the spatial context of each pixel over the entire image and attempts to reduce the amount of information down to a much smaller image by using what is known as a filter. As a concrete example, consider the following example shown below:&lt;/p&gt;
+
+&lt;p&gt;Given a 5 x 5 image shown on the left hand side, we will apply a convolution operation using a 3 x 3 filter shown on the right. The neural network will slide the 3 x 3 matrix over the image, starting at the top left and move its way to the right. For each region that the filter covers, it takes the product of the corresponding cells in the image and the filter and multiplies the values together, then takes its sum. We continue this process until the filter completely slides over the entire image. The process of convolution can be visualized in the following way:&lt;/p&gt;
+
+&lt;p&gt;After the image is fed through the convolution operation, the newly convoluted image is typically fed through another activation function, most notably the Rectified Linear Unit, which is a very simple piecewise function as described below. Essentially any zero and negative values are immediately eliminated from the image itself. At this stage, the image would be filtered down to its most salient properties, allowing for the model to focus on key areas of the image as depicted in the right hand side.&lt;/p&gt;
+
+&lt;p&gt;Prior to performing the convolving operation, we then perform the pooling operation, which is another method to reduce the size of our input data and extract relevant features from our image. Pooling works by grouping the images into smaller segments, known as a window size (essentially similar to the filter), and utilize an operation to extract the most valuable feature from the given patch of the image. For pooling, we can utilize the maximum, average, or the sum of the patches, however, the state-of-the-art presents usually recommends to take the maximum number as it yields better results empirically. A sample operation of max-pooling is demonstrated numerically on the left, followed by a sample result from a pooling operation on an image:&lt;/p&gt;
+
+&lt;h3 id=&quot;fully-connected-neural-networks&quot;&gt;Fully Connected Neural Networks&lt;/h3&gt;
+&lt;p&gt;Prior to performing the repeated operations of convolution and pooling, the image would now be reduced to a smaller representation of the original. With this representation, we can now feed this data into our fully connected neural network. Typically, in most visual recognition systems, the model will include approximately 2 to 3 hidden layers prior to being sent to the model output. The last layer in the neural network, for a image entity based classification model, would utilize a softmax function, which is a more generalized function of the sigmoid function previously introduced. The only main difference is the softmax function can be utilized for classification of multiple objects while the softmax function is bounded only for a binary classification model (classification of two objects).&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-the-weights-of-a-neural-network&quot;&gt;Learning the Weights of a Neural Network&lt;/h3&gt;
+&lt;p&gt;In order for the model to be able to “learn” the various features and weights we have introduced, we utilize a technique known as backpropagation to correspondingly adjust the weights as we feed data into the network [6]. Initially, when training the model, the neural network’s weights are all based on some arbitrarily set value and is not defined explicitly. The key for the neural network to make correctly observe an image, we will have to make sure that it uses the right weights. To derive these weights, we would first initially input a piece of data from our training set and have the model provide its prediction on what it thinks the image is. We then compare the results to the actual associated label that is provided by the training dataset. If the model gets it right, we move onto the next image. However, if the model incorrectly guesses the wrong entity, we would make corrections to the weights by propagating the error, defined by the actual and hypothetical probabilities of the guess it made. We then take the gradient (essentially the derivative of the error) and feed it back into the network and subtract the corresponding weights that contributed to that error. By performing this process, we make sure that the weights are corrected properly so that the next time the neural network sees the same image (or similar image) again, it will ensure that it will make the correct estimation based on the new weights provided. A visual process of backpropagation is demonstrated below:&lt;/p&gt;
+
+&lt;p&gt;We perform this backpropagation process many times over many epochs, which is the total number of times the mode goes through the entire dataset to learn the weights of the model. Typically we train the model over hundreds of epochs to ensure that it has indeed converged to the point where it makes the fewest amounts of mistakes as possible. To ensure that this is the case, we utilize our validation set, which the model did not use during the training set, and evaluates how well it performs against data it has never encountered before. We can use this criteria typically to judge how well our model generalizes across new images and use it as a metric to compare against other different neural network topologies or methods for training our model. At this stage, the model is now complete and is ready to be used for inference.&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;In short, image recognition systems are based on a data driven approach which utilizes various layers to break down and decompose the original image to identify key salient features within the image to make is predictions. Although there may be many variations of how the topologies of these neural networks are built, we have introduced some of the core building blocks of what makes up a deep learning system capable of being able to identify objects within an image just as a human being would.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Jun 2017 14:00:00 -1000</pubDate>
+        <link>http://localhost:4000/2017/how-image-rec-works/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/how-image-rec-works/</guid>
+      </item>
+    
+      <item>
+        <title>A Web-Based FaceRig + Live2D Implementation</title>
+        
+        <description>&lt;p&gt;The following blog post was based on an original post I wrote for
+&lt;a href=&quot;http://qiita.com/yutarochan/items/6f08bfa7b20709a6b3ba&quot;&gt;Qiita&lt;/a&gt; and was translated
+from Japanese. Also due to TOS reasons with the Live2D SDK, I cannot post the source
+code to this implementation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;With the recent hype surrounding &lt;a href=&quot;https://facerig.com/&quot;&gt;FaceRig&lt;/a&gt; and the release
+of their &lt;a href=&quot;http://www.live2d.com/en/&quot;&gt;Live2D&lt;/a&gt; module, it was certainly interesting
+to see two really interesting pieces of technology merge into one neat application
+for use in areas like gaming and new human-computer interaction systems.&lt;/p&gt;
+
+&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.youtube.com/embed/IINyowbMqJI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;With that, I wanted to take this an opportunity to hack together a quick-and-dirty
+web-based implementation of FaceRig’s Live2D module for a web browser. Of course
+further refinements to improve the tracking ability or the fluidity of the animation
+in the future.&lt;/p&gt;
+
+&lt;p&gt;In the past, I have implemented a demo of Live2D on a browser based on OpenGL.
+For this implementation, I have utilized the same Live2D demo codebase and will
+simply look through the SDK to be able to adjust the parameters to deform the angular
+direction of the character’s face.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/4d5fed48-372d-c3b9-0a3f-ddbd5c633e93.png&quot; alt=&quot;Implementation of the Web Version of Live2D&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For facial tracking, I implemented a &lt;a href=&quot;https://github.com/auduno/clmtrackr&quot;&gt;Javascript based facial tracker&lt;/a&gt; based on the
+&lt;a href=&quot;http://dl.acm.org/citation.cfm?id=1938021&quot;&gt;Constrained Local Models&lt;/a&gt; from
+Saragih et. al’s paper. This works fairly well for a prototype (although not really perfect), however can
+probably truly optimized with either a better model or a completely new tracking
+algorithm (such as implementing a Lucas-Kanade Optical Flow based tracker in Javascript).
+But for now, this would suffice to at least get some of the primary functions of facial feature tracking down.&lt;/p&gt;
+
+&lt;p&gt;Below you can see the facial feature tracking algorithm in action:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/c37157ae-f985-0b30-3cdc-87a4f05e49ed.png&quot; alt=&quot;Facial Feature Tracking Demo 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/f93cbf6a-e568-da2d-93cc-526ac90290c0.png&quot; alt=&quot;Hey look mom, I'm Iron Man!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The original source for the OpenGL based Live2D implemented a mouse based tracker
+which would use the mouse pointer’s coordinates as a means to rotate and morph the
+face to the corresponding angle of where the pointer is. The plan here is to map the
+facial feature tracking coordinates to the mouse pointer and attempt to move the
+character’s face.&lt;/p&gt;
+
+&lt;p&gt;For a very naive approach, we can use the nose as a key point to have it track only
+the rotation of the head for our initial implementation. Further down the road we
+can utilize these parameters to further optimize the tracking of the facial features.&lt;/p&gt;
+
+&lt;p&gt;We will use the coordinate point number 62 as our tracking point for the facial tracking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/de76edbf-2b1c-fed4-8581-b7bf53667fe3.png&quot; alt=&quot;Facial Coordinates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the above method, I was able to make the head rotate slightly - but not fluidly
+enough like the original implementation as the magnitude of movement is very small.
+To fix this, we may have to normalize the values so that the movement of our face would
+be greater for the corresponding head movements captured from the camera.&lt;/p&gt;
+
+&lt;p&gt;For now, this was a quick-and-dirty implementation of FaceRig Live2D module. However,
+down the road we can maybe use a better tracking algorithm to track certain features of
+the face with greater accuracy (using deep learning models maybe). Furthermore, we can
+dig into the Live2D SDK to see how we can morph some of the facial features to get a better
+control over the visual aspects of the avatar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/db700e2f-cacf-471a-bd4a-f7231af98e9a.png&quot; alt=&quot;The Final Product&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Mar 2016 14:00:00 -1000</pubDate>
+        <link>http://localhost:4000/2016/facerig-live2d/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/facerig-live2d/</guid>
+      </item>
+    
+      <item>
+        <title>Getting Settled</title>
+        
+        <description>&lt;p&gt;Welcome to my first post where I hope to keep this as a personal corner of the web to write out my thoughts, ideas, tutorials and latest developments. I hope to post on topics such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Computer Science&lt;/li&gt;
+  &lt;li&gt;Programming and Programming Languages&lt;/li&gt;
+  &lt;li&gt;AI, Machine Learning, Neural Networks and Deep Learning&lt;/li&gt;
+  &lt;li&gt;Life Updates, Accomplishments, Retrospective Posts and Experiences&lt;/li&gt;
+  &lt;li&gt;Research and other Professional Developments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you would like to keep in touch with me, you can do so through my email at &lt;a href=&quot;mailto:yuyajeremyong@gmail.com&quot;&gt;yuyajeremyong@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, you can subscribe to my atom feel through &lt;a href=&quot;http://yutarochan.github.io/feed.xml&quot;&gt;here&lt;/a&gt; to get the latest feed in your RSS reader.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Mar 2016 11:44:00 -1000</pubDate>
+        <link>http://localhost:4000/2016/getting-settled/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/getting-settled/</guid>
+      </item>
+    
+  </channel>
+</rss>
