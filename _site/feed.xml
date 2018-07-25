@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amaranth's </title>
+    <description>Just another minimalist Jekyll theme for technical writing.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 Jul 2018 23:51:09 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Jul 2018 23:51:09 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Getting RE:Settled</title>
+        <description>&lt;p&gt;Recently, I have reworked my template again to manage the structure and organization of my site. I decided to go with a simpler theme (shout out to &lt;img src=&quot;https://heiswayi.nrird.com/&quot; alt=&quot;heiswayi&quot; /&gt; for the awesome theme!).&lt;/p&gt;
+
+&lt;p&gt;For long, I have worked on various projects, learned a lot and decided it was time to start documenting these ideas down and sharing what I have learned though these experiences.
+In particular I would like to use this space as a means to showcase my work, break down and implement state-of-the-art research papers, and make it an effort to improve my overall communication skills in how I can
+provide technical knowledge and content in a precise, simple and concise manner.&lt;/p&gt;
+
+&lt;p&gt;I hope that you will enjoy the new journey and posts as I hope to periodically update this blog with new and interesting content that many will enjoy.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Until then see you in the next post!  ヾ(´∀｀)ﾉ&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Jul 2018 14:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/getting-resettled/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/getting-resettled/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Web-Based FaceRig + Live2D Implementation</title>
+        <description>&lt;p&gt;The following blog post was based on an original post I wrote for
+&lt;a href=&quot;http://qiita.com/yutarochan/items/6f08bfa7b20709a6b3ba&quot;&gt;Qiita&lt;/a&gt; and was translated
+from Japanese. Also, due to TOS reasons with the Live2D SDK, I cannot post the source
+code to this implementation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;With the recent hype surrounding &lt;a href=&quot;https://facerig.com/&quot;&gt;FaceRig&lt;/a&gt; and the release
+of their &lt;a href=&quot;http://www.live2d.com/en/&quot;&gt;Live2D&lt;/a&gt; module, it was certainly interesting
+to see two really interesting pieces of technology merge into one neat application
+for use in areas like gaming and new human-computer interaction systems.&lt;/p&gt;
+
+&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.youtube.com/embed/IINyowbMqJI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;With that, I wanted to take this an opportunity to hack together a quick-and-dirty
+web-based implementation of FaceRig’s Live2D module for a web browser. Of course
+further refinements to improve the tracking ability or the fluidity of the animation
+in the future.&lt;/p&gt;
+
+&lt;p&gt;In the past, I have implemented a demo of Live2D on a browser based on OpenGL.
+For this implementation, I have utilized the same Live2D demo codebase and will
+simply look through the SDK to be able to adjust the parameters to deform the angular
+direction of the character’s face.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/4d5fed48-372d-c3b9-0a3f-ddbd5c633e93.png&quot; alt=&quot;Implementation of the Web Version of Live2D&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For facial tracking, I implemented a &lt;a href=&quot;https://github.com/auduno/clmtrackr&quot;&gt;Javascript based facial tracker&lt;/a&gt; based on the
+&lt;a href=&quot;http://dl.acm.org/citation.cfm?id=1938021&quot;&gt;Constrained Local Models&lt;/a&gt; from
+Saragih et. al’s paper. This works fairly well for a prototype (although not really perfect), however can
+probably truly optimized with either a better model or a completely new tracking
+algorithm (such as implementing a Lucas-Kanade Optical Flow based tracker in Javascript).
+But for now, this would suffice to at least get some of the primary functions of facial feature tracking down.&lt;/p&gt;
+
+&lt;p&gt;Below you can see the facial feature tracking algorithm in action:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/c37157ae-f985-0b30-3cdc-87a4f05e49ed.png&quot; alt=&quot;Facial Feature Tracking Demo 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/f93cbf6a-e568-da2d-93cc-526ac90290c0.png&quot; alt=&quot;Hey look mom, I'm Iron Man!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The original source for the OpenGL based Live2D implemented a mouse based tracker
+which would use the mouse pointer’s coordinates as a means to rotate and morph the
+face to the corresponding angle of where the pointer is. The plan here is to map the
+facial feature tracking coordinates to the mouse pointer and attempt to move the
+character’s face.&lt;/p&gt;
+
+&lt;p&gt;For a very naive approach, we can use the nose as a key point to have it track only
+the rotation of the head for our initial implementation. Further down the road we
+can utilize these parameters to further optimize the tracking of the facial features.&lt;/p&gt;
+
+&lt;p&gt;We will use the coordinate point number 62 as our tracking point for the facial tracking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/de76edbf-2b1c-fed4-8581-b7bf53667fe3.png&quot; alt=&quot;Facial Coordinates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the above method, I was able to make the head rotate slightly - but not fluidly
+enough like the original implementation as the magnitude of movement is very small.
+To fix this, we may have to normalize the values so that the movement of our face would
+be greater for the corresponding head movements captured from the camera.&lt;/p&gt;
+
+&lt;p&gt;For now, this was a quick-and-dirty implementation of FaceRig Live2D module. However,
+down the road we can maybe use a better tracking algorithm to track certain features of
+the face with greater accuracy (using deep learning models maybe). Furthermore, we can
+dig into the Live2D SDK to see how we can morph some of the facial features to get a better
+control over the visual aspects of the avatar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/db700e2f-cacf-471a-bd4a-f7231af98e9a.png&quot; alt=&quot;The Final Product&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Mar 2016 16:00:01 -0800</pubDate>
+        <link>http://localhost:4000/2016/facerig-live2d/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/facerig-live2d/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Getting Settled</title>
+        <description>&lt;p&gt;Welcome to my first post where I hope to keep this as a small personal corner of the web to write out my thoughts, ideas, tutorials, and latest developments. I hope to post on topics such as:&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Artificial Intelligence, Machine Learning, Neural Networks and Deep Learning&lt;/li&gt;
+  &lt;li&gt;Tricks, Hacks, and Useful Techniques I Use on a Day-to-Day Basis&lt;/li&gt;
+  &lt;li&gt;Recent News, Accomplishments, Retrospective Posts and Experiences&lt;/li&gt;
+  &lt;li&gt;Research and other Professional Developments&lt;/li&gt;
+  &lt;li&gt;Random Thoughts Experiments and Ideas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you would like to keep in touch with me, you can do so through my email at &lt;a href=&quot;mailto:yuyajeremyong@gmail.com&quot;&gt;yuyajeremyong@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, you can subscribe to my atom feel through &lt;a href=&quot;http://yutarochan.github.io/feed.xml&quot;&gt;here&lt;/a&gt; to get the latest feed in your RSS reader.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Mar 2016 13:44:00 -0800</pubDate>
+        <link>http://localhost:4000/2016/getting-settled/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/getting-settled/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
