@@ -5,9 +5,75 @@
     <description>Just another minimalist Jekyll theme for technical writing.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Jul 2018 23:51:09 -0700</pubDate>
-    <lastBuildDate>Tue, 24 Jul 2018 23:51:09 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Sat, 30 Mar 2019 01:35:02 -0400</pubDate>
+    <lastBuildDate>Sat, 30 Mar 2019 01:35:02 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Book Feature: 機械学習エンジニアになりたい人のための本 AIを天職にする</title>
+        <description>&lt;p&gt;It’s been a while since I have last posted any substantial material on my blog,
+but I would like to make an exciting announcement. I am pleased to announce that
+I have helped to contribute content for a new publication titled,
+“機械学習エンジニアになりたい人のための本 AIを天職にする” or in English,
+“The Book For People Who Want To Become A Machine Learning Engineer or Want to Get Into the AI Industry”.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;https://images-fe.ssl-images-amazon.com/images/I/51YgQBVIfpL.jpg&quot; height=&quot;300px&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This book is aimed towards beginners and professionals who are already working in other
+sectors of the industry to arm them with the knowledge they need to enter into the
+profession of a Machine Learning Engineer as well as applying the latest methods and
+integrate the state-of-the-art methods into their domain.&lt;/p&gt;
+
+&lt;p&gt;The book covers contents from various resources, studying and learning resources,
+to interviews of professionals within the field to obtain a birds-eye view of the overall profession.
+The book is divided into two key sections: one for “Aspiring ML Engineers” which are
+looking to getting into the industry and understanding what they need to know to get
+a job as a Machine Learning Engineer, and the other for “Domain-Applied ML Practitioners” or
+those that want to implement or apply Machine Learning into their existing workflow or
+domain space through introducing the know-how and ways to develop prototypes and
+deploy them.&lt;/p&gt;
+
+&lt;p&gt;Although this book is only available in Japanese, it plays a pretty strategic role
+in how it provides various resources and starting points for those that are not
+sure where to get started. This book is not only both appropriate for novices but
+also advanced and well-seasoned practitioners as they also provide very great insights
+in the ways to keep up with the latest research and obtain code and materials for
+existing implementations.&lt;/p&gt;
+
+&lt;p&gt;The book authored by Daisuke Ishii, the founder of &lt;a href=&quot;http://www.jenio.co/&quot;&gt;Jenio Inc.&lt;/a&gt; and
+organizer of the Tokyo meetup group &lt;a href=&quot;https://www.team-ai.com/&quot;&gt;TeamAI&lt;/a&gt;. It has been my
+pleasure to collaborate with him on one of the chapters, dedicated to applying
+machine learning within an existing domain or company and describing the fundamentals
+behind what it takes to fully deploy a production grade system.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/2019-03-29_img2.jpg&quot; width=&quot;80%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I met Daisuke through one of the largest and most dominant Facebook groups,
+Artificial Intelligence and Deep Learning group. It was then he approached me to help
+contribute some contents, and spurred an exchange of information between us in
+sharing knowledge of the developments and state-of-the-art from the US to the Japanese
+Data Science community. Last winter, during my visit to Tokyo for my winter break, I
+have also given a talk on Affective Computing work as a special guest speaker.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/2019-03-29_img1.jpg&quot; width=&quot;80%&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are interested in the Japanese market of Machine Learning and are looking
+into getting into the Japanese market as a Data Scientist, this book is a must-read!&lt;/p&gt;
+
+&lt;p&gt;You can purchase a soft-covered copy or a Kindle version through Amazon.co.jp  &lt;a href=&quot;https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%9C%AC-AI%E3%82%92%E5%A4%A9%E8%81%B7%E3%81%AB%E3%81%99%E3%82%8B-%E7%9F%B3%E4%BA%95-%E5%A4%A7%E8%BC%94-ebook/dp/B07GWM4J7H&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Mar 2019 20:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/ml-practitioner-book/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/ml-practitioner-book/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Getting RE:Settled</title>
@@ -23,7 +89,7 @@ provide technical knowledge and content in a precise, simple and concise manner.
 
 &lt;p&gt;Until then see you in the next post!  ヾ(´∀｀)ﾉ&lt;/p&gt;
 </description>
-        <pubDate>Tue, 24 Jul 2018 14:00:00 -0700</pubDate>
+        <pubDate>Tue, 24 Jul 2018 17:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/getting-resettled/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/getting-resettled/</guid>
         
@@ -98,7 +164,7 @@ control over the visual aspects of the avatar.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.amazonaws.com/0/64623/db700e2f-cacf-471a-bd4a-f7231af98e9a.png&quot; alt=&quot;The Final Product&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Mar 2016 16:00:01 -0800</pubDate>
+        <pubDate>Mon, 07 Mar 2016 19:00:01 -0500</pubDate>
         <link>http://localhost:4000/2016/facerig-live2d/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/facerig-live2d/</guid>
         
@@ -125,7 +191,7 @@ control over the visual aspects of the avatar.&lt;/p&gt;
 
 &lt;p&gt;Also, you can subscribe to my atom feel through &lt;a href=&quot;http://yutarochan.github.io/feed.xml&quot;&gt;here&lt;/a&gt; to get the latest feed in your RSS reader.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 06 Mar 2016 13:44:00 -0800</pubDate>
+        <pubDate>Sun, 06 Mar 2016 16:44:00 -0500</pubDate>
         <link>http://localhost:4000/2016/getting-settled/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/getting-settled/</guid>
         
