@@ -51,6 +51,8 @@ gems:
 navbar:
   - slug : about
     title: About
+  - slug : work
+    title: Work
   - slug : blog
     title: Blog
 

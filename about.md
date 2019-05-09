@@ -3,13 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm Yuya, a current undergraduate student in the [College of Information, Sciences and Technology](https://ist.psu.edu/) at the <a href="http://www.psu.edu/">Pennsylvania State University</a> currently majoring in Data Sciences.
+I graduated with a BS in Data Sciences from the [College of Information, Sciences and Technology](https://ist.psu.edu/) at the <a href="http://www.psu.edu/">Pennsylvania State University</a>.
 
-My interests lie in working with Deep Learning, Artificial Intelligence, Machine Learning, Big Data, Data Science, Human Computer Interaction Systems, Affective Computing, Virtual Reality, Augmented Reality, and recently IR systems.
+My interests lie in working and doing research on Deep Learning, Artificial Intelligence, Machine Learning, Big Data, Data Science, Human Computer Interaction Systems, Affective Computing, IR systems, Reinforcement Learning, and more recently Quantum Computing.
 
-I am currently an Undergraduate Research Assistant at the [Intelligent Information Systems Research Laboratory](http://iis.ist.psu.edu/) advised under [Professor James Z. Wang](http://wang.ist.psu.edu/docs/home.shtml) working on affective computing technologies.
+I have worked as an Undergraduate Research Assistant at the [Intelligent Information Systems Research Laboratory](http://iis.ist.psu.edu/) advised under [Professor James Z. Wang](http://wang.ist.psu.edu/docs/home.shtml) working on building systems towards emotion recognition using body language.
 
-I have worked at the [IBM Almaden Research Center](http://www.research.ibm.com/labs/almaden/index.shtml) as an intern researcher. I am also currently seeking a full-time opportunity in Deep Leaning Research or Data Science positions -- please reach out to me if you have any leads or are interested in working with me. Resume is available upon on request.
+I have worked at the [IBM Almaden Research Center](http://www.research.ibm.com/labs/almaden/index.shtml) as an intern researcher and will soon be working full-time as a Researcher there this Summer.
 
 <br />
 
