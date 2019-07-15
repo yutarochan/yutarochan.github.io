@@ -58,6 +58,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 * [BTN Live Big 10 - Instagram Take Over Feature (2018)](https://www.instagram.com/p/BorlVhYnmN7/)
 * [Penn State University (Front Page Feature) - Mirror, Mirror (2018)](https://www.psu.edu/feature/2018/10/03/mirror-mirror)
 * [IST junior spends two summers at IBM Research, files patent for prediction tool (2018)](https://news.psu.edu/story/535293/2018/09/07/academics/ist-junior-spends-two-summers-ibm-research-files-patent-prediction)
+* [ACM TechNews - Penn Staters Create Smart Mirror to Match Tech With Beauty in Global Competition](https://cacm.acm.org/news/227888-penn-staters-create-smart-mirror-to-match-tech-with-beauty-in-global-competition/fulltext)
 * [L’Oreal is looking to students to get a leg up on beauty-tech (2018)](https://www.glossy.co/beauty/loreal-is-looking-to-students-to-get-a-leg-up-on-beauty-tech)
 * [Penn Staters create smart mirror to match tech with beauty in global competition (2018)](https://news.psu.edu/story/520944/2018/05/14/academics/penn-staters-create-smart-mirror-match-tech-beauty-global)
 * [[TV News Feature] Penn State students to pitch Smart Mirror design at international competition (2018)](https://www.wearecentralpa.com/news/penn-state-students-to-pitch-smart-mirror-design-at-international-competition-/1141502085)
