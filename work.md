@@ -6,7 +6,7 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: May, 2019
+**Last Updated**: July, 2019
 
 <br />
 <hr />
@@ -43,6 +43,9 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 <hr />
 
 ### Patents
+* Performing Multivariate Time Series Prediction with Three-Dimensional Transformations <br />
+Mu Qiao, Yuya J Ong, Divyesh Jadav <br />
+**US Patent App**: [Filed & Pending]
 * [Context Aware Sensitive Information Detection](https://patents.google.com/patent/US20180365560A1/en) <br />
 Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 **US Patent App**: 15626566
