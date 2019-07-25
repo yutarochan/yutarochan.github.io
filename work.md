@@ -13,6 +13,9 @@ media features based on works that I have done in the past.
 
 ### Publications
 #### Published (and Contributed) Papers
+* [ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild (Contributor)](https://arxiv.org/abs/1808.09568)
+Luo, Yu & Ye, Jianbo & Reginald B. Adams, Jr & Li, Jia & Newman, Michelle & Z. Wang, James. (2018). ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild. 
+
 * [Context-Aware Data Loss Prevention for Cloud Storage Services](https://ieeexplore.ieee.org/abstract/document/8030614) <br />
 Yuya Jeremy Ong, Mu Qiao, Ramani Routray, Roger Raphael <br />
 Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp. 399-406, 2017.
