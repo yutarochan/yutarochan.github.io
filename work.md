@@ -61,6 +61,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### In the News/Media
+* [YouTube - Penn State Sizzle 2019 Promotional Video (2019)](https://www.youtube.com/watch?v=sNOO6RG-4zE)
 * [YouTube - Exploring Undergraduate Research in Penn State's College of IST (2019)](https://www.youtube.com/watch?v=FpAnlxp0VRY)
 * [YouTube - Why Should I Become a College of IST Student? (2019)](https://www.youtube.com/watch?v=CKUfsN1hj9I) 
 * [BTN Live Big 10 - Instagram Take Over Feature (2018)](https://www.instagram.com/p/BorlVhYnmN7/)
