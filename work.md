@@ -61,6 +61,8 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### In the News/Media
+* [YouTube - Exploring Undergraduate Research in Penn State's College of IST (2019)](https://www.youtube.com/watch?v=FpAnlxp0VRY)
+* [YouTube - Why Should I Become a College of IST Student? (2019)](https://www.youtube.com/watch?v=CKUfsN1hj9I) 
 * [BTN Live Big 10 - Instagram Take Over Feature (2018)](https://www.instagram.com/p/BorlVhYnmN7/)
 * [Penn State University (Front Page Feature) - Mirror, Mirror (2018)](https://www.psu.edu/feature/2018/10/03/mirror-mirror)
 * [IST junior spends two summers at IBM Research, files patent for prediction tool (2018)](https://news.psu.edu/story/535293/2018/09/07/academics/ist-junior-spends-two-summers-ibm-research-files-patent-prediction)
