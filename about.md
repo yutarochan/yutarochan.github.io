@@ -9,13 +9,14 @@ My interests lie in working and doing research on Deep Learning, Artificial Inte
 
 I have worked as an Undergraduate Research Assistant at the [Intelligent Information Systems Research Laboratory](http://iis.ist.psu.edu/) advised under [Professor James Z. Wang](http://wang.ist.psu.edu/docs/home.shtml) working on building systems towards emotion recognition using body language.
 
-I have worked at the [IBM Almaden Research Center](http://www.research.ibm.com/labs/almaden/index.shtml) as an intern researcher and will soon be working full-time as a Researcher there this Summer.
+I have worked at the [IBM Almaden Research Center](http://www.research.ibm.com/labs/almaden/index.shtml) as an intern researcher and currently working as a Research Software Engineer on developing Deep Learning architectures for Time Series Forecasting models.
 
 <br />
 
 ***
 
 #### Contact & Links
+IBM Research Page: [https://researcher.watson.ibm.com/researcher/view.php?person=us-yuyajong]<br />
 Email: [yuyajeremyong@gmail.com](mailto:yuyajeremyong@gmail.com)<br />
 Github: [https://github.com/yutarochan](https://github.com/yutarochan)<br />
 LinkedIn: [https://www.linkedin.com/in/yuya-ong-48a58527/](https://www.linkedin.com/in/yuya-ong-48a58527/)<br />
