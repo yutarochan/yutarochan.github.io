@@ -16,7 +16,7 @@ I have worked at the [IBM Almaden Research Center](http://www.research.ibm.com/l
 ***
 
 #### Contact & Links
-IBM Research Page: [https://researcher.watson.ibm.com/researcher/view.php?person=us-yuyajong]<br />
+IBM Research Page: [https://researcher.watson.ibm.com/researcher/view.php?person=us-yuyajong](https://researcher.watson.ibm.com/researcher/view.php?person=us-yuyajong)<br />
 Email: [yuyajeremyong@gmail.com](mailto:yuyajeremyong@gmail.com)<br />
 Github: [https://github.com/yutarochan](https://github.com/yutarochan)<br />
 LinkedIn: [https://www.linkedin.com/in/yuya-ong-48a58527/](https://www.linkedin.com/in/yuya-ong-48a58527/)<br />
