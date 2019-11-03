@@ -6,7 +6,7 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: July, 2019
+**Last Updated**: November, 2019
 
 <br />
 <hr />
@@ -39,6 +39,7 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 * Towards a Reverse Turing Test Framework for Chatbots [[Paper](../assets/pdf/DS 310_ Take Home Exam.pdf)]
 * CDiscount Large-Scale Deep Learning Image Classification [[Slide](../assets/pdf/CDiscount Kaggle Competition.pdf)] [[Paper](../assets/pdf/DS 310_ Project 2 Writeup.pdf)]
 * Clickbait Detection Using Machine Learning [[Paper](../assets/pdf/DS 310_ Project 1 Writeup.pdf)]
+* Decentralized Topic Modeling and Proxy Routing Based Obfuscation Methods for Web Search Privacy (../assets/pdf/Decentralized Topic-Modeling and Proxy-Routing Based Obfuscation Methods for Web Search Privacy.pdf)[[Paper]]
 * Amazon Product Rating Predictions at Scale [[Slide](../assets/pdf/DS 410_ Amazon Product Rating Predictions at Scale.pdf)] [[Paper](../assets/pdf/DS_410___Final_Project_Report.pdf)]
 
 
