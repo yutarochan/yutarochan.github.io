@@ -9,7 +9,7 @@ My interests lie in working and doing research on Deep Learning, Artificial Inte
 
 Previously, I have worked as an Undergraduate Research Assistant at the [Intelligent Information Systems Research Laboratory](http://iis.ist.psu.edu/) advised under [Professor James Z. Wang](http://wang.ist.psu.edu/docs/home.shtml) working on building systems towards emotion recognition using body language.
 
-Currently, I work as a Research Software Engineer [IBM Almaden Research Center](http://www.research.ibm.com/labs/almaden/index.shtml) working on various projects ranging from Time Series Forecasting, Deep Learning, Federated Learning, and Stochastic Optimization Problems.
+Currently, I work as a Research Software Engineer [IBM Almaden Research Center](http://www.research.ibm.com/labs/almaden/index.shtml) working on various projects, both applied and theoretical problems, pertaining to Time Series Forecasting, Deep Learning, Federated Learning, and Stochastic Optimization.
 
 <br />
 
