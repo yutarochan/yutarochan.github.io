@@ -6,13 +6,15 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: November, 2019
+**Last Updated**: March, 2020
 
 <br />
 <hr />
 
 ### Publications
 #### Published (and Contributed) Papers
+* [Temporal Tensor Transformation Network for Multivariate Time Series Prediction](https://arxiv.org/abs/2001.01051)
+Yuya Jeremy Ong, Mu Qiao, Divyesh Jadav. Arxiv [2001.01051].
 * [ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild](https://arxiv.org/abs/1808.09568) (Contributor) <br />
 Luo, Yu & Ye, Jianbo & Reginald B. Adams, Jr & Li, Jia & Newman, Michelle & Z. Wang, James. (2018). ArXiv [1808.09568].
 
@@ -30,27 +32,33 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 
 #### Undergraduate Projects & Reports
 * Efficiency Characterization of the Kepler Exoplanet Discovery Pipeline Using Machine Learning [[Slide](../assets/pdf/DS 440_ Machine Learning Methods for Transiting Planet Search Systems.pdf)] [[Paper](../assets/pdf/DS_440___Capstone_Final_Report.pdf)]
+
 * Performance Analysis of MySQL and Neo4J on StackOverflow User Interaction Graphs [[Paper](../assets/pdf/DS220__Midterm_Report.pdf)]
+
 * Birth Rate Forecasting Using Deep Learning Models [[Slide](../assets/pdf/Machine Learning Based Methods for Forecasting Birth Rates.pdf)] [[Paper](../assets/pdf/SOC 423 - Final Paper.pdf)]
+
 * EVE: Emotion Vector Encoding - Towards Learning Feature Representations for Emotion Embeddings [[Paper](../assets/pdf/EVE__Emotion_Vector_Encodings___Towards_a_Representation_for_Human_Emotion_States.pdf)] [[Slide](../assets/pdf/DS 340 Final Presentation HankinsOng.pdf)]
+
 * Browser-Based Distributed Computing [[Slide](../assets/pdf/CMPSC 450 - Mini Project.pdf)] [[Paper](../assets/pdf/Browser_Based_Distributed_Computing.pdf)]
+
 * OER Commons Search Engine [[Slide](../assets/pdf/IST 441_ OER Commons Search Engine.pdf)] [[Paper](../assets/pdf/IST_441__OER_Common_Search_Engine.pdf)]
+
 * Body Emotion Study Data Collection and Visualization Tool [[Paper](../assets/pdf/DS 330_ Final Project Writeup.pdf)]
+
 * Towards a Reverse Turing Test Framework for Chatbots [[Paper](../assets/pdf/DS 310_ Take Home Exam.pdf)]
+
 * CDiscount Large-Scale Deep Learning Image Classification [[Slide](../assets/pdf/CDiscount Kaggle Competition.pdf)] [[Paper](../assets/pdf/DS 310_ Project 2 Writeup.pdf)]
+
 * Clickbait Detection Using Machine Learning [[Paper](../assets/pdf/DS 310_ Project 1 Writeup.pdf)]
+
 * Decentralized Topic Modeling and Proxy Routing Based Obfuscation Methods for Web Search Privacy [[Paper](../assets/pdf/Decentralized Topic-Modeling and Proxy-Routing Based Obfuscation Methods for Web Search Privacy.pdf)]
 
 * Amazon Product Rating Predictions at Scale [[Slide](../assets/pdf/DS 410_ Amazon Product Rating Predictions at Scale.pdf)] [[Paper](../assets/pdf/DS_410___Final_Project_Report.pdf)]
-
 
 <br />
 <hr />
 
 ### Patents
-* Performing Multivariate Time Series Prediction with Three-Dimensional Transformations <br />
-Mu Qiao, Yuya J Ong, Divyesh Jadav <br />
-**US Patent App**: [Filed & Pending]
 * [Context Aware Sensitive Information Detection](https://patents.google.com/patent/US20180365560A1/en) <br />
 Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 **US Patent App**: 15626566
