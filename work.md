@@ -13,7 +13,7 @@ media features based on works that I have done in the past.
 
 ### Publications
 #### Published (and Contributed) Papers
-* [Temporal Tensor Transformation Network for Multivariate Time Series Prediction](https://arxiv.org/abs/2001.01051)
+* [Temporal Tensor Transformation Network for Multivariate Time Series Prediction](https://arxiv.org/abs/2001.01051) <br />
 Yuya Jeremy Ong, Mu Qiao, Divyesh Jadav. Arxiv [2001.01051].
 * [ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild](https://arxiv.org/abs/1808.09568) (Contributor) <br />
 Luo, Yu & Ye, Jianbo & Reginald B. Adams, Jr & Li, Jia & Newman, Michelle & Z. Wang, James. (2018). ArXiv [1808.09568].
