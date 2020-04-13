@@ -67,6 +67,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### Talks
+* [Lemelson-MIT InvenTeam - Tenafly Board of Education Presentation (2014)](http://librarymedia.net/board-of-education-october-21-2014)
 
 <hr />
 
