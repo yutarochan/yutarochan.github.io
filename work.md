@@ -84,4 +84,5 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 * [Connections Day event links IST students with engagement opportunities (2018)](https://news.psu.edu/story/503948/2018/02/05/campus-life/connections-day-event-links-ist-students-engagement)
 * [Riding the wave of data sciences: Nittany Data Labs makes a splash (2018)](https://news.psu.edu/story/499107/2018/01/17/academics/riding-wave-data-sciences-nittany-data-labs-makes-splash)
 * [IST student files patent, sees bright future in the ‘golden age of data science’ (2017)](https://news.psu.edu/story/477227/2017/08/10/academics/ist-student-files-patent-sees-bright-future-%E2%80%98golden-age-data)
+* [YouTube - EurekaFest 2014: Tenafly High School InvenTeam](https://www.youtube.com/watch?v=NwHx9h2GKn8)
 * [High School Teams Receive Lemelson-MIT InvenTeam™ Grant for Invention Projects (2013)](https://www.businesswire.com/news/home/20131016005335/en/High-School-Teams-Receive-Lemelson-MIT-InvenTeam%E2%84%A2-Grant)
