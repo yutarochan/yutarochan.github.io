@@ -6,7 +6,7 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: March, 2020
+**Last Updated**: April, 2020
 
 <br />
 <hr />
