@@ -6,7 +6,7 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: April, 2020
+**Last Updated**: June, 2020
 
 <br />
 <hr />
@@ -15,6 +15,7 @@ media features based on works that I have done in the past.
 #### Published (and Contributed) Papers
 * [Temporal Tensor Transformation Network for Multivariate Time Series Prediction](https://arxiv.org/abs/2001.01051) <br />
 Yuya Jeremy Ong, Mu Qiao, Divyesh Jadav. Arxiv [2001.01051].
+
 * [ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild](https://arxiv.org/abs/1808.09568) (Contributor) <br />
 Luo, Yu & Ye, Jianbo & Reginald B. Adams, Jr & Li, Jia & Newman, Michelle & Z. Wang, James. (2018). ArXiv [1808.09568].
 
@@ -59,6 +60,10 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 <hr />
 
 ### Patents
+* [Histogram-Based Gradient Boosted Decision Trees for Federated Learning](#)<br />
+Yuya J Ong, Yi Zhou, Nathalie Baracaldo <br />
+* [Predict Multivariate Time Series with Systematic and Random Missing Values](#)<br />
+Mu Qiao, Yuya J Ong, Divyesh Jadav <br />
 * [Context Aware Sensitive Information Detection](https://patents.google.com/patent/US20180365560A1/en) <br />
 Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 **US Patent App**: 15626566
@@ -67,6 +72,8 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### Talks
+* [IBM Data and AI Innovation Exchange AMA Webinar: Federated Decision Tree and Gradient Boost. Integrating Multiple Federated Models (2020)](https://drive.google.com/file/d/1_enXo7jbYGySq8fz9TIfinOuK4AgjoYQ/view?usp=sharing)
+* [TeamAI Guest Speaker - Affective Computing and AI (2018)](https://www.meetup.com/Machine-Learning-Meetup-by-team-ai/events/257261247/)
 * [Lemelson-MIT InvenTeam - Tenafly Board of Education Presentation (2014)](http://librarymedia.net/board-of-education-october-21-2014)
 
 <hr />
