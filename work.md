@@ -60,8 +60,6 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 <hr />
 
 ### Patents
-* [Histogram-Based Gradient Boosted Decision Trees for Federated Learning](#)<br />
-Yuya J Ong, Yi Zhou, Nathalie Baracaldo <br />
 * [Predict Multivariate Time Series with Systematic and Random Missing Values](#)<br />
 Mu Qiao, Yuya J Ong, Divyesh Jadav <br />
 * [Context Aware Sensitive Information Detection](https://patents.google.com/patent/US20180365560A1/en) <br />
@@ -72,7 +70,6 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### Talks
-* [INFORMS 2020 Annual Meeting - Histogram-Based Gradient Boosted Trees For Federated Learning - Washington D.C., USA; 2020](#)
 * [IBM Data and AI Innovation Exchange AMA Webinar: Federated Decision Tree and Gradient Boost. Integrating Multiple Federated Models - Webinar; 2020](https://drive.google.com/file/d/1_enXo7jbYGySq8fz9TIfinOuK4AgjoYQ/view?usp=sharing)
 * [TeamAI Guest Speaker - Affective Computing and AI - Tokyo, Japan; 2018](https://www.meetup.com/Machine-Learning-Meetup-by-team-ai/events/257261247/)
 * [Lemelson-MIT InvenTeam - Tenafly Board of Education Presentation - Tenafly, USA; 2014](http://librarymedia.net/board-of-education-october-21-2014)<br />
