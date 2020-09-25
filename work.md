@@ -6,15 +6,18 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: June, 2020
+**Last Updated**: September, 2020
 
 <br />
 <hr />
 
 ### Publications
 #### Published (and Contributed) Papers
+* [IBM Federated Learning: an Enterprise Framework White Paper V0.1](https://arxiv.org/abs/2007.10987) <br />
+Heiko Ludwig, Nathalie Baracaldo, Gegi Thomas, Yi Zhou, Ali Anwar, Shashank Rajamoni, Yuya Ong, Jayaram Radhakrishnan, Ashish Verma, Mathieu Sinn, Mark Purcell, Ambrish Rawat, Tran Minh, Naoise Holohan, Supriyo Chakraborty, Shalisha Whitherspoon, Dean Steuer, Laura Wynter, Hifaz Hassan, Sean Laguna, Mikhail Yurochkin, Mayank Agarwal, Ebube Chuba, Annie Abay. (2020) ArXiv [2007.10987]
+
 * [Temporal Tensor Transformation Network for Multivariate Time Series Prediction](https://arxiv.org/abs/2001.01051) <br />
-Yuya Jeremy Ong, Mu Qiao, Divyesh Jadav. Arxiv [2001.01051].
+Yuya Jeremy Ong, Mu Qiao, Divyesh Jadav. (2020). Arxiv [2001.01051].
 
 * [ARBEE: Towards Automated Recognition of Bodily Expression of Emotion In the Wild](https://arxiv.org/abs/1808.09568) (Contributor) <br />
 Luo, Yu & Ye, Jianbo & Reginald B. Adams, Jr & Li, Jia & Newman, Michelle & Z. Wang, James. (2018). ArXiv [1808.09568].
@@ -26,6 +29,9 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 <br />
 
 #### Published/Contributed Books
+* [現場のプロが伝える前処理技術 ~基礎から実践まで学ぶ テーブルデータ/自然言語/画像データの前処理](https://www.amazon.co.jp/%E7%8F%BE%E5%A0%B4%E3%81%AE%E3%83%97%E3%83%AD%E3%81%8C%E4%BC%9D%E3%81%88%E3%82%8B%E5%89%8D%E5%87%A6%E7%90%86%E6%8A%80%E8%A1%93-%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E5%AE%9F%E8%B7%B5%E3%81%BE%E3%81%A7%E5%AD%A6%E3%81%B6-%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF-%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E-%E7%94%BB%E5%83%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%89%8D%E5%87%A6%E7%90%86/dp/4839970017)
+ 石井 大輔, 漆畑 充, 及川大智, 大下健史, オング優也 
+
 * [機械学習エンジニアになりたい人のための本 AIを天職にする](https://www.amazon.co.jp/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%84%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E6%9C%AC-AI%E3%82%92%E5%A4%A9%E8%81%B7%E3%81%AB%E3%81%99%E3%82%8B-%E7%9F%B3%E4%BA%95-%E5%A4%A7%E8%BC%94-ebook/dp/B07GWM4J7H)<br />
 石井 大輔 (Contributed as Guest Content Provider)
 
