@@ -13,8 +13,12 @@ media features based on works that I have done in the past.
 
 ### Publications
 #### Published (and Contributed) Papers
+* [Adaptive Histogram-Based Gradient Boosted Trees for Federated Learning](https://arxiv.org/abs/2012.06670)<br ?>
+Yuya Jeremy Ong, Yi Zhou, Nathalie Baracaldo, Heiko Ludwig. (2020) ArXiv [2012.06670].
+
+
 * [IBM Federated Learning: an Enterprise Framework White Paper V0.1](https://arxiv.org/abs/2007.10987) <br />
-Heiko Ludwig, Nathalie Baracaldo, Gegi Thomas, Yi Zhou, Ali Anwar, Shashank Rajamoni, Yuya Ong, Jayaram Radhakrishnan, Ashish Verma, Mathieu Sinn, Mark Purcell, Ambrish Rawat, Tran Minh, Naoise Holohan, Supriyo Chakraborty, Shalisha Whitherspoon, Dean Steuer, Laura Wynter, Hifaz Hassan, Sean Laguna, Mikhail Yurochkin, Mayank Agarwal, Ebube Chuba, Annie Abay. (2020) ArXiv [2007.10987]
+Heiko Ludwig, Nathalie Baracaldo, Gegi Thomas, Yi Zhou, Ali Anwar, Shashank Rajamoni, Yuya Ong, Jayaram Radhakrishnan, Ashish Verma, Mathieu Sinn, Mark Purcell, Ambrish Rawat, Tran Minh, Naoise Holohan, Supriyo Chakraborty, Shalisha Whitherspoon, Dean Steuer, Laura Wynter, Hifaz Hassan, Sean Laguna, Mikhail Yurochkin, Mayank Agarwal, Ebube Chuba, Annie Abay. (2020). ArXiv [2007.10987]
 
 * [Temporal Tensor Transformation Network for Multivariate Time Series Prediction](https://arxiv.org/abs/2001.01051) <br />
 Yuya Jeremy Ong, Mu Qiao, Divyesh Jadav. (2020). Arxiv [2001.01051].
@@ -66,8 +70,6 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 <hr />
 
 ### Patents
-* [Predict Multivariate Time Series with Systematic and Random Missing Values](#)<br />
-Mu Qiao, Yuya J Ong, Divyesh Jadav <br />
 * [Context Aware Sensitive Information Detection](https://patents.google.com/patent/US20180365560A1/en) <br />
 Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 **US Patent App**: 15626566
