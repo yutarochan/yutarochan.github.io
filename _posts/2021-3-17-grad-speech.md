@@ -90,8 +90,10 @@ You have elected me to be your leader, but I was also there to serve you in my b
 
 I promised to make a lot of changes. And with all your help and teamwork, we did. The contributions, you, we, did were amazing. 
 You have given me the inspiration and the optimism to work hard and give my best. And I thank you for being there with me throughout all 
-of the good and bad times of my middle school life.</p><p> </p><p>My theme was about, “Doing what’s right, and doing it right” or in other words, 
-having integrity and execution excellence in all that we do. This school year also focused on our Honor Code, that we need to apply in theory and practice.
+of the good and bad times of my middle school life.
+
+My theme was about, “Doing what’s right, and doing it right” or in other words, having integrity and execution excellence in all that we do. 
+This school year also focused on our Honor Code, that we need to apply in theory and practice.
   
 As Brian Tracy mentioned, “The glue that holds all relationships together- including the leader and the led is trust, 
 and the trust is based on integrity.” Integrity is an important part of not only our school but being a part of a citizen or a community. 
