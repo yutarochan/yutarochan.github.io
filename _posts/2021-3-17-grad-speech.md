@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Advice from My High School Statistics Teacher"
-date:   2019-5-9 00:00:00
-description: A list of advice to any one who just graduated from school (whether High School or even College).
+title:  "A Memory of the Past"
+date:   2021-3-17 00:00:00
+description: A graduation speech of the past.
 comments: true
 keywords: "graduation, speech, life"
 ---
