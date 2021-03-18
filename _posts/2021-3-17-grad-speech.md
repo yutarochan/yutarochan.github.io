@@ -7,9 +7,9 @@ comments: true
 keywords: "graduation, speech, life"
 ---
 
-Facebook has a quirky way of reminding people of their past through their shared memories through reminding their userbase by
-recalling those old cringey posts of the past. For me, I took this as an opportuinty to take a moment to reflect, but also to
-delete posts one by one and letting go of those past memories.
+One of the ways I use Facebook's "On this Day" feature is to reflect and delete posts as they appear on that day. This was 
+part of a routine way for me to slowly remove* the data off of Facebook by taking the opportuinty to reflect, then forget 
+what I've posted or mentioned in the past.
 
 On this day today, however, there was one memory that Facebook reminded me of that I thought I would keep around. 
 This was a post of a graduation speech I gave during my 8th grade graduation, which was one of the defining moments during my 
