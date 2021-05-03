@@ -13,7 +13,7 @@ media features based on works that I have done in the past.
 
 ### Publications
 #### Published (and Contributed) Papers
-* [Adaptive Histogram-Based Gradient Boosted Trees for Federated Learning](https://arxiv.org/abs/2012.06670)<br ?>
+* [Adaptive Histogram-Based Gradient Boosted Trees for Federated Learning](https://arxiv.org/abs/2012.06670)<br />
 Yuya Jeremy Ong, Yi Zhou, Nathalie Baracaldo, Heiko Ludwig. (2020) ArXiv [2012.06670].
 
 
@@ -70,9 +70,13 @@ Proceedings of the IEEE International Conference on Cloud Computing (CLOUD), pp.
 <hr />
 
 ### Patents
+* [Performing multivariate time series prediction with three-dimensional transformations](https://patents.google.com/patent/US20210012191A1/en) <br />
+Mu Qiao, Yuya J Ong, Divyesh Jadav <br />
+**Publication**: US20210012191A1 (Patent Pending)
+
 * [Context Aware Sensitive Information Detection](https://patents.google.com/patent/US20180365560A1/en) <br />
 Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
-**US Patent App**: 15626566
+**Publication**: US20180365560A1 (Granted 4/20/21)
 
 <br />  
 <hr />
@@ -92,7 +96,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 * [YouTube - Exploring Undergraduate Research in Penn State's College of IST (2019)](https://www.youtube.com/watch?v=FpAnlxp0VRY)
 * [YouTube - Why Should I Become a College of IST Student? (2019)](https://www.youtube.com/watch?v=CKUfsN1hj9I) 
 * [BTN Live Big 10 - Instagram Take Over Feature (2018)](https://www.instagram.com/p/BorlVhYnmN7/)
-* [Penn State University (Front Page Feature) - Mirror, Mirror (2018)](https://www.psu.edu/feature/2018/10/03/mirror-mirror)
+* [Penn State University (Front Page Feature) - Mirror, Mirror (2018)](https://web.archive.org/web/20181105124451/https://www.psu.edu/feature/2018/10/03/mirror-mirror)
 * [IST junior spends two summers at IBM Research, files patent for prediction tool (2018)](https://news.psu.edu/story/535293/2018/09/07/academics/ist-junior-spends-two-summers-ibm-research-files-patent-prediction)
 * [ACM TechNews - Penn Staters Create Smart Mirror to Match Tech With Beauty in Global Competition](https://cacm.acm.org/news/227888-penn-staters-create-smart-mirror-to-match-tech-with-beauty-in-global-competition/fulltext)
 * [L’Oreal is looking to students to get a leg up on beauty-tech (2018)](https://www.glossy.co/beauty/loreal-is-looking-to-students-to-get-a-leg-up-on-beauty-tech)
