@@ -13,7 +13,7 @@ media features based on works that I have done in the past.
 
 ### Publications
 #### Published (and Contributed) Papers
-*[Predicting Loss Risks for B2B Tendering Processes](https://arxiv.org/abs/2109.06815)<br />
+* [Predicting Loss Risks for B2B Tendering Processes](https://arxiv.org/abs/2109.06815)<br />
 Eelaaf Zahid, Yuya Jeremy Ong, Aly Megahed, Taiga Nakamura. (2021) ArXiv [2109.06815]
 
 * [Adaptive Histogram-Based Gradient Boosted Trees for Federated Learning](https://arxiv.org/abs/2012.06670)<br />
