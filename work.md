@@ -13,6 +13,8 @@ media features based on works that I have done in the past.
 
 ### Publications
 #### Published (and Contributed) Papers
+*[Predicting Loss Risks for B2B Tendering Processes](https://arxiv.org/abs/2109.06815)<br />
+
 * [Adaptive Histogram-Based Gradient Boosted Trees for Federated Learning](https://arxiv.org/abs/2012.06670)<br />
 Yuya Jeremy Ong, Yi Zhou, Nathalie Baracaldo, Heiko Ludwig. (2020) ArXiv [2012.06670].
 
