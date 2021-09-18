@@ -85,6 +85,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 
 ### Talks
 * [INFORMS Annual Meeting 2021: Data-Driven Actionable Decision Making Using Explainable SHAP Scores; 2021](https://drive.google.com/file/d/1MUzQl7TeV8OdkZNUrCqE41FCMv4JcM-t/view?usp=sharing)
+* [Digital Developer Conference - Data/AI: Growing Trees Together Privately An Introduction to Gradient Boosted Decision Tree Models for Federated Learning; 2021](https://video.ibm.com/recorded/129967474)
 * [INFORMS Annual Meeting 2020: A Modeling Framework For Resolving Conflicts Between Experts’ Intuition And Data-driven AI Models; 2020](https://drive.google.com/file/d/1mBAASr0pK7iHEEKRAeZuoX7ekz92b3e0/view?usp=sharing) 
 * [INFORMS Annual Meeting 2020: Adaptive Histogram-based Gradient Boosted Trees For Federated Learning; 2020](https://drive.google.com/file/d/11QbR5L8-9YiSUUlbSuK9j8XZ4eVFL4Xk/view?usp=sharing)
 * [Nittany Data Labs: From Happy Valley to Silicon Valley; 2020](https://www.youtube.com/watch?v=bSW2hVuyJP4)
