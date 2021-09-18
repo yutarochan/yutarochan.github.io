@@ -6,7 +6,7 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: September, 2020
+**Last Updated**: September, 2021
 
 <br />
 <hr />
@@ -18,7 +18,6 @@ Eelaaf Zahid, Yuya Jeremy Ong, Aly Megahed, Taiga Nakamura. (2021) ArXiv [2109.0
 
 * [Adaptive Histogram-Based Gradient Boosted Trees for Federated Learning](https://arxiv.org/abs/2012.06670)<br />
 Yuya Jeremy Ong, Yi Zhou, Nathalie Baracaldo, Heiko Ludwig. (2020) ArXiv [2012.06670].
-
 
 * [IBM Federated Learning: an Enterprise Framework White Paper V0.1](https://arxiv.org/abs/2007.10987) <br />
 Heiko Ludwig, Nathalie Baracaldo, Gegi Thomas, Yi Zhou, Ali Anwar, Shashank Rajamoni, Yuya Ong, Jayaram Radhakrishnan, Ashish Verma, Mathieu Sinn, Mark Purcell, Ambrish Rawat, Tran Minh, Naoise Holohan, Supriyo Chakraborty, Shalisha Whitherspoon, Dean Steuer, Laura Wynter, Hifaz Hassan, Sean Laguna, Mikhail Yurochkin, Mayank Agarwal, Ebube Chuba, Annie Abay. (2020). ArXiv [2007.10987]
@@ -85,10 +84,12 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### Talks
-* [INFORMS Annual Meeting 2020: A Modeling Framework For Resolving Conflicts Between Experts’ Intuition And Data-driven AI Models; 2020](https://drive.google.com/file/d/11QbR5L8-9YiSUUlbSuK9j8XZ4eVFL4Xk/view?usp=sharing)
-* [INFORMS Annual Meeting 2020: Adaptive Histogram-based Gradient Boosted Trees For Federated Learning; 2020](https://drive.google.com/file/d/1mBAASr0pK7iHEEKRAeZuoX7ekz92b3e0/view?usp=sharing)
+* [INFORMS Annual Meeting 2021: Data-Driven Actionable Decision Making Using Explainable SHAP Scores; 2021](https://drive.google.com/file/d/1MUzQl7TeV8OdkZNUrCqE41FCMv4JcM-t/view?usp=sharing)
+* [INFORMS Annual Meeting 2020: A Modeling Framework For Resolving Conflicts Between Experts’ Intuition And Data-driven AI Models; 2020](https://drive.google.com/file/d/1mBAASr0pK7iHEEKRAeZuoX7ekz92b3e0/view?usp=sharing) 
+* [INFORMS Annual Meeting 2020: Adaptive Histogram-based Gradient Boosted Trees For Federated Learning; 2020](https://drive.google.com/file/d/11QbR5L8-9YiSUUlbSuK9j8XZ4eVFL4Xk/view?usp=sharing)
 * [Nittany Data Labs: From Happy Valley to Silicon Valley; 2020](https://www.youtube.com/watch?v=bSW2hVuyJP4)
 * [IBM Data and AI Innovation Exchange AMA Webinar: Federated Decision Tree and Gradient Boost. Integrating Multiple Federated Models - Webinar; 2020](https://drive.google.com/file/d/1_enXo7jbYGySq8fz9TIfinOuK4AgjoYQ/view?usp=sharing)
+* [Brandstorm USA 2018 Pitch: SalonAI](https://www.youtube.com/watch?v=EatYaTLFHJA)
 * [TeamAI Guest Speaker - Affective Computing and AI - Tokyo, Japan; 2018](https://www.meetup.com/Machine-Learning-Meetup-by-team-ai/events/257261247/)
 * [Lemelson-MIT InvenTeam - Tenafly Board of Education Presentation - Tenafly, USA; 2014](http://librarymedia.net/board-of-education-october-21-2014)<br />
 
