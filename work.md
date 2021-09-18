@@ -89,6 +89,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 * [INFORMS Annual Meeting 2020: Adaptive Histogram-based Gradient Boosted Trees For Federated Learning; 2020](https://drive.google.com/file/d/11QbR5L8-9YiSUUlbSuK9j8XZ4eVFL4Xk/view?usp=sharing)
 * [Nittany Data Labs: From Happy Valley to Silicon Valley; 2020](https://www.youtube.com/watch?v=bSW2hVuyJP4)
 * [IBM Data and AI Innovation Exchange AMA Webinar: Federated Decision Tree and Gradient Boost. Integrating Multiple Federated Models - Webinar; 2020](https://drive.google.com/file/d/1_enXo7jbYGySq8fz9TIfinOuK4AgjoYQ/view?usp=sharing)
+* [Brandstorm USA 2018 Semi-Finalist Presentation](https://drive.google.com/file/d/1agA5UhNACmehNxg-TjXjpHxBFsLn9_3D/view?usp=sharing)
 * [Brandstorm USA 2018 Pitch: SalonAI](https://www.youtube.com/watch?v=EatYaTLFHJA)
 * [TeamAI Guest Speaker - Affective Computing and AI - Tokyo, Japan; 2018](https://www.meetup.com/Machine-Learning-Meetup-by-team-ai/events/257261247/)
 * [Lemelson-MIT InvenTeam - Tenafly Board of Education Presentation - Tenafly, USA; 2014](http://librarymedia.net/board-of-education-october-21-2014)<br />
