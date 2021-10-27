@@ -102,6 +102,7 @@ Mu Qiao, Yuya J Ong, Ramani Routray, Roger C Raphael <br />
 <hr />
 
 ### In the News/Media
+* [Forbes - IBM Federated Learning Research - Extracting Machine Learning Models From Multiple Data Pools](https://www.forbes.com/sites/tiriasresearch/2021/10/15/ibm-federated-learning-researchextracting-machine-learning-models-from-multiple-data-pools/?sh=292e5c713847)
 * [YouTube - Penn State Sizzle 2019 Promotional Video (2019)](https://www.youtube.com/watch?v=sNOO6RG-4zE)
 * [YouTube - Exploring Undergraduate Research in Penn State's College of IST (2019)](https://www.youtube.com/watch?v=FpAnlxp0VRY)
 * [YouTube - Why Should I Become a College of IST Student? (2019)](https://www.youtube.com/watch?v=CKUfsN1hj9I) 
