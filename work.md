@@ -6,13 +6,17 @@ permalink: /work/
 The following page showcases papers, journals, books, previous works, and other
 media features based on works that I have done in the past.
 
-**Last Updated**: September, 2021
+**Last Updated**: October, 2021
 
 <br />
 <hr />
 
 ### Publications
 #### Published (and Contributed) Papers
+* [The class imbalance problem](https://www.nature.com/articles/s41592-021-01302-4)<br />
+Megahed, Fadel M., Ying-Ju Chen, Aly Megahed, Yuya Ong, Naomi Altman, and Martin Krzywinski. <br />
+Nature Methods (2021).
+
 * [Predicting Loss Risks for B2B Tendering Processes](https://arxiv.org/abs/2109.06815)<br />
 Eelaaf Zahid, Yuya Jeremy Ong, Aly Megahed, Taiga Nakamura. (2021) ArXiv [2109.06815]
 
