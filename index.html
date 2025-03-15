@@ -1,0 +1,69 @@
+---
+layout: default
+title: Home
+custom_js:
+  - butterfly
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Hello, I'm <span class="highlight">Your Name</span></h1>
+    <p class="hero-subtitle">Designer & Developer</p>
+    <div class="hero-buttons">
+      <a href="{{ '/about' | relative_url }}" class="btn btn-primary">About Me</a>
+      <a href="{{ '/works' | relative_url }}" class="btn btn-secondary">View My Work</a>
+    </div>
+  </div>
+  <div class="hero-animation">
+    <canvas id="butterfly-canvas"></canvas>
+  </div>
+</section>
+
+<section class="featured-works">
+  <div class="section-header">
+    <h2 class="section-title">Featured Work</h2>
+    <a href="{{ '/works' | relative_url }}" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="works-grid">
+    {% assign featured_works = site.works | where: "featured", true | sort: "date" | reverse | limit: 3 %}
+    {% for work in featured_works %}
+    <a href="{{ work.url | relative_url }}" class="work-card">
+      {% if work.featured_image %}
+      <div class="work-card-image">
+        <img src="{{ work.featured_image | relative_url }}" alt="{{ work.title }}">
+      </div>
+      {% endif %}
+      <div class="work-card-content">
+        <h3 class="work-card-title">{{ work.title }}</h3>
+        <p class="work-card-category">{{ work.category }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="latest-posts">
+  <div class="section-header">
+    <h2 class="section-title">Latest Posts</h2>
+    <a href="{{ '/blog' | relative_url }}" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="posts-grid">
+    {% for post in site.posts limit: 3 %}
+    <a href="{{ post.url | relative_url }}" class="post-card">
+      <div class="post-card-content">
+        <p class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <h3 class="post-card-title">{{ post.title }}</h3>
+        <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="contact">
+  <div class="contact-content">
+    <h2 class="contact-title">Let's Work Together</h2>
+    <p class="contact-text">Interested in working together? Feel free to reach out!</p>
+    <a href="mailto:{{ site.email }}" class="btn btn-primary">Get in Touch</a>
+  </div>
+</section>

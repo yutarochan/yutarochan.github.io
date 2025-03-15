@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  {% seo %}
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
+      <nav class="nav">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+        <ul class="nav-menu">
+          {% for item in site.navigation %}
+          <li class="nav-item">
+            <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-social">
+          {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if site.twitter_username %}
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+          <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+    <script src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
+    {% endfor %}
+  {% endif %}
+</body>
+</html>

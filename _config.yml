@@ -1,0 +1,49 @@
+title: My Portfolio
+email: your-email@example.com
+description: A modern portfolio showcasing my work, thoughts, and experiences.
+baseurl: ""
+url: ""
+twitter_username: yourusername
+github_username: yourusername
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  works:
+    output: true
+    permalink: /works/:path/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Works
+    url: /works/
+  - title: Blog
+    url: /blog/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "work"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

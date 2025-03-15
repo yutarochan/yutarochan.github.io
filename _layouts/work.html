@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="work">
+  <header class="work-header">
+    <h1 class="work-title">{{ page.title }}</h1>
+    <div class="work-meta">
+      <p class="work-category">{{ page.category }}</p>
+      <p class="work-date">{{ page.date | date: "%Y" }}</p>
+    </div>
+  </header>
+  
+  {% if page.featured_image %}
+  <div class="work-featured-image">
+    <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+  
+  <div class="work-content">
+    {{ content }}
+  </div>
+  
+  {% if page.gallery %}
+  <div class="work-gallery">
+    {% for image in page.gallery %}
+    <div class="gallery-item">
+      <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}">
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
